@@ -19,7 +19,13 @@ function App() {
           Learn React
         </a>
       </header>
-      <Blog />
+      <Blog
+        title="How to Build a Blog in React"
+        author="John Doe"
+        date="April 30, 2025"
+        image="https://via.placeholder.com/800x400"
+        content="This is a sample blog post. You can write rich content here including HTML, images, and more. Use state and props in React to make it dynamic!"
+      />
     </div>
   );
 }
